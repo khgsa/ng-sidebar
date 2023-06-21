@@ -1,54 +1,39 @@
 {
-  "name": "ng-sidebar",
-  "version": "9.4.3",
-  "description": "[DEPRECATED] Angular sidebar component.",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/arkon/ng-sidebar.git"
-  },
-  "homepage": "http://echeung.me/ng-sidebar/",
-  "bugs": {
-    "url": "https://github.com/arkon/ng-sidebar/issues"
-  },
-  "files": [
-    "lib_commonjs/*",
-    "lib_esmodule/*",
-    "README.md",
-    "LICENSE"
-  ],
-  "author": "Eugene Cheung",
-  "license": "MIT",
-  "keywords": [
-    "angular",
-    "ng",
-    "sidebar",
-    "component"
-  ],
-  "main": "./lib_commonjs/index.js",
-  "module": "./lib_esmodule/index.js",
-  "jsnext:main": "./lib_esmodule/index.js",
-  "typings": "./lib_commonjs/index.d.ts",
+  "name": "angular-16-libs",
+  "version": "0.0.0",
   "scripts": {
-    "lint": "tslint --project tsconfig.json src/**/*.ts",
-    "build:commonjs": "rimraf lib_commonjs && ngc -p tsconfig.json",
-    "build:esmodule": "rimraf lib_esmodule && ngc -p tsconfig.module.json",
-    "build": "npm run lint && npm run build:commonjs && npm run build:esmodule",
-    "prepare": "npm run build"
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test"
   },
-  "peerDependencies": {
-    "@angular/core": ">=8.0.0",
-    "@angular/common": ">=8.0.0"
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "^16.1.0",
+    "@angular/common": "^16.1.0",
+    "@angular/compiler": "^16.1.0",
+    "@angular/core": "^16.1.0",
+    "@angular/forms": "^16.1.0",
+    "@angular/platform-browser": "^16.1.0",
+    "@angular/platform-browser-dynamic": "^16.1.0",
+    "@angular/router": "^16.1.0",
+    "rxjs": "~7.8.0",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.13.0"
   },
   "devDependencies": {
-    "@angular/common": "^8.2.14",
-    "@angular/compiler": "^8.2.14",
-    "@angular/compiler-cli": "^8.2.14",
-    "@angular/core": "^8.2.14",
-    "@angular/platform-browser": "^8.2.14",
-    "rimraf": "^3.0.2",
-    "rxjs": "^6.5.5",
-    "tslint": "^5.20.1",
-    "typescript": "~3.4.0",
-    "zone.js": "~0.9.1"
+    "@angular-devkit/build-angular": "^16.1.0",
+    "@angular/cli": "~16.1.0",
+    "@angular/compiler-cli": "^16.1.0",
+    "@types/jasmine": "~4.3.0",
+    "jasmine-core": "~4.6.0",
+    "karma": "~6.4.0",
+    "karma-chrome-launcher": "~3.2.0",
+    "karma-coverage": "~2.2.0",
+    "karma-jasmine": "~5.1.0",
+    "karma-jasmine-html-reporter": "~2.1.0",
+    "ng-packagr": "^16.1.0",
+    "typescript": "~5.1.3"
   }
 }

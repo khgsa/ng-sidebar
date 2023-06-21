@@ -1,0 +1,29 @@
+{
+  "name": "ng-sidebar-v2",
+  "version": "16.0.4",
+  "description": "Angular sidebar component.",
+  "peerDependencies": {
+    "@angular/common": "^16.1.0",
+    "@angular/core": "^16.1.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tranminhtamapp/ng-sidebar.git"
+  },
+  "homepage": "https://github.com/tranminhtamapp/ng-sidebar",
+  "bugs": {
+    "url": "https://github.com/tranminhtamapp/ng-sidebar/issues"
+  },
+  "author": "Eugene Cheung",
+  "license": "MIT",
+  "keywords": [
+    "angular",
+    "ng",
+    "sidebar",
+    "component"
+  ],
+  "sideEffects": false
+}

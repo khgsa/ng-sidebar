@@ -1,9 +1,13 @@
 # ng-sidebar
 
-⚠️　**This package is deprecated and not maintained.** ⚠️
-
+Fork of https://github.com/arkon/ng-sidebar.git
 ---
+## Versions
 
+| Angular          | ng-sidebar |
+|------------------|:---------:|
+| >=16.0.0 <17.0.0 |   v16.x   |
+---
 [![NPM](https://nodei.co/npm/ng-sidebar.png?compact=true)](https://nodei.co/npm/ng-sidebar)
 
 **[Demo](https://echeung.me/ng-sidebar)**
