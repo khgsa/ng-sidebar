@@ -1,18 +1,12 @@
 # ng-sidebar
 
-Fork of https://github.com/arkon/ng-sidebar.git
+Fork of https://github.com/tranminhtamapp/ng-sidebar.git
 ---
 ## Versions
 
 | Angular          | ng-sidebar |
 |------------------|:---------:|
-| >=16.0.0 <17.0.0 |   v16.x   |
----
-[![NPM](https://nodei.co/npm/ng-sidebar.png?compact=true)](https://nodei.co/npm/ng-sidebar)
-
-**[Demo](https://echeung.me/ng-sidebar)**
-
-*Formerly called [ng2-sidebar](https://github.com/arkon/ng2-sidebar)*
+| >=17.0.0 <18.0.0 |   v17.x   |
 
 An Angular sidebar component.
 
@@ -43,11 +37,6 @@ const packages = {
   // ...
 };
 ```
-
-
-## Changelog
-
-See the [releases page](https://github.com/arkon/ng-sidebar/releases) on GitHub.
 
 
 ## Usage
